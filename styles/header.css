@@ -5,15 +5,12 @@ header {
 }
 
 header .container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #profile {
-    display: flex;
     gap: 32px;
-    
 }
 
 #profile > div {
@@ -21,8 +18,8 @@ header .container {
 }
 
 #profile img {
-    width: 176px;
-    height: 176px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -40,10 +37,22 @@ header .container {
     gap: 16px;
 
     width: 280px;
+    margin-top: 2rem;
 }
 
 #info li {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+@media (width >= 80em) {
+    #profile, #info, .container {
+        display: flex;
+    }
+
+    #profile img {
+        width: 176px;
+        height: 176px;
+    }
 }
