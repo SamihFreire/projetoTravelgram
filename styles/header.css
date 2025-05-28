@@ -46,7 +46,7 @@ header .container {
     gap: 8px;
 }
 
-@media (width >= 80em) {
+@media (width >= 61em) {
     #profile, #info, .container {
         display: flex;
     }

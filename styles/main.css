@@ -3,6 +3,7 @@ main {
     flex-wrap: wrap;
     gap: 24px;
     padding-block: 24px;
+    justify-content: center;
 }
 
 main img {
@@ -12,11 +13,10 @@ main img {
 
 }
 
-@media (width < 80em) {
+@media (width < 61em) {
 
     main {
         gap: 16px;
-        justify-content: center;
 
         & img {
             width: 328px;
